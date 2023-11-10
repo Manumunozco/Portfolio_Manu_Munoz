@@ -4,6 +4,7 @@ import Image from "next/image"
 import profilePic from "../../public/images/profile/developer-pic-1.png"
 import AnimatedText from "@/components/AnimatedText"
 
+
 export default function Home() {
   return (
     <>
@@ -24,6 +25,7 @@ export default function Home() {
 <p className="my-4 text-base font-medium">
 mensaje acerca de mi y mis conocimientos en breve
 </p>
+
 </div>
 </div>
         </Layout>
