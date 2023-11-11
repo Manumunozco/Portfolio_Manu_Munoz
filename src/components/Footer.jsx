@@ -20,7 +20,7 @@ return(
 
 const Footer = () => {
   return (
-    <header className="flex items-center justify-center mt-2 mb-3">
+    <header className="flex items-center justify-center mt-5 mb-3">
 
 <nav className="flex items-center justify-center flex-wrap mb-5">
     <motion.a href="https://twitter.com" target={"_blank"}
