@@ -5,15 +5,15 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import project1 from "../../public/images/projects/project1.jpeg"
-import project2 from "../../public/images/projects/project2.jpeg"
-import project3 from "../../public/images/projects/project3.jpeg"
-import project4 from "../../public/images/projects/project4.jpeg"
+import project2 from "../../public/images/projects/project2.jpg"
+import project3 from "../../public/images/projects/project3.jpg"
+import project4 from "../../public/images/projects/project4.jpg"
 
 
 const Project = ({title, type, img, link, github}) => {
 
     return(
-        <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl">
+        <article className="w-full flex flex-col items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl">
 <Link href={link} target="_blank" className="w-full cursor-pointer overflow-hidden rounded-lg">
     <Image src={img} alt={title} className="w-full h-auto" />
 </Link>
@@ -27,7 +27,7 @@ const Project = ({title, type, img, link, github}) => {
 </div>
 <div className="mt-2 flex items-center">
 <Link href={github} target="_blank" className="w-10"> <GithubIcon /> </Link>
-<Link href={link} target="_blank" className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold">Visit our project</Link>
+<Link href={link} target="_blank" className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold underline">Visit our project</Link>
 </div>
         </article>
     )

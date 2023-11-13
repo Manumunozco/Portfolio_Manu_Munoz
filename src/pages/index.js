@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex items-center text-dark w-full min-h-screen">
+      <main className="flex items-center text-dark w-full min-h-screen ">
         <Layout className="pt-0">
 <div className="flex items-center justify-between w-full">
 <div className="w-1/2">
