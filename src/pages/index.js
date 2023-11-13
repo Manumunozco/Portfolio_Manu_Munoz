@@ -15,13 +15,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen ">
-        <Layout className="pt-0">
-<div className="flex items-center justify-between w-full">
+        <Layout className="pt-0 md:pt-16 sm:pt-8">
+<div className="flex items-center justify-between w-full lg:flex-col">
 <div className="w-1/2">
-  <Image src={profilePic} alt="manumunoz" className="w-full h-auto" />
+  <Image src={profilePic} alt="manumunoz" className="w-full h-auto lg:hidden md:inline-block md:w-full" />
 </div>
-<div className="w-1/2 flex flex-col items-center self-center">
-<AnimatedText text="Mensaje de bienvenida" className="!text-6xl !text-left"/>
+<div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
+<AnimatedText text="Mensaje de bienvenida" className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"/>
 <p className="my-4 text-base font-medium">
 mensaje acerca de mi y mis conocimientos en breve
 </p>
