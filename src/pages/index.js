@@ -21,10 +21,14 @@ export default function Home() {
   <Image src={profilePic} alt="manumunoz" className="w-full h-auto lg:hidden md:inline-block md:w-full" />
 </div>
 <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
-<AnimatedText text="Mensaje de bienvenida" className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"/>
+<AnimatedText text="Hello! I'm Manuel Munoz Conejeros, a passionate full-stack software developer." className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"/>
 <p className="my-4 text-base font-medium">
-mensaje acerca de mi y mis conocimientos en breve
+I enjoy turning complex problems into simple, beautiful, and intuitive solutions. My goal is to create innovative and impactful software that makes a difference.
 </p>
+<h2 className="my-4 text-base font-large">
+Explore my projects and feel free to get in touch!
+</h2>
+
 
 </div>
 </div>
