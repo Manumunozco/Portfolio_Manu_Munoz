@@ -1,9 +1,8 @@
-  # PROJECT 4 - REACT
+  # PROJECT 6 - NEXT.JS
 
 Description
 
-In this fourth project, the main tool is working with the React.js library, with a base of HTML5, JavaScript and Css for styles. In particular, this web page allows us to observe about the history and content of the business, main information of the restaurant. Also, the client will have the option of creating a reservation, manipulating a form with inputs and handled via Firebase. The page was launched through Vite, using Usestate among other functions.
-Finally, the project was created on Git hub as a repository. Also, to the creation of a web page through Netlify.
+This project, where the main tool is Next.js, we focused on showing our skills and our past works. This website has different components. We have a main Home, about, skill and projects. Pages that can be interacted with and navigated through.
 
 Visual
 
@@ -27,11 +26,11 @@ For a correct installation, follow the steps below:
 
     - Clone the project in Github.
 
-        https://github.com/Manumunozco/P4-React.git
+        https://github.com/Manumunozco/Portfolio_Manu_Munoz.git
 
     - Go to the project directory.
 
-        cd P4-React.git
+        cd Portfolio_Manu_Munoz.git
 
     - Open the Index.html file in your browser.
 
@@ -49,16 +48,16 @@ At this time the tools used in this project are detailed below:
     - CSS
     - JavaScript
     - React.js
-    - Hooks
-    - Props
-    - FireBase
-    - Vite
+    - Next,js
+    - Motion
+    - Boostrap
+    - Tailwin
     - async-await
     - ReadMe
 
 Contribution
 
-This is my fourth project, so, same like my others projects, if you think I need to improve something or if you have an idea to develop, just write me or make your pull request directly.
+This is my sixth project, so, same like my others projects, if you think I need to improve something or if you have an idea to develop, just write me or make your pull request directly.
 
 
 Thanks to:
